@@ -4,7 +4,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 def shared_pods
-  pod 'FolioReaderKit', path: '../'
+  pod 'FolioReaderKit', '1.3.0'
 end
 
 def testing_pods

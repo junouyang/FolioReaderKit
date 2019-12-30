@@ -22,13 +22,14 @@ PODS:
   - ZFDragableModalTransition (0.6)
 
 DEPENDENCIES:
-  - FolioReaderKit (from `../`)
+  - FolioReaderKit (= 1.3.0)
   - Nimble (= 7.0.2)
   - Quick (= 1.2.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AEXML
+    - FolioReaderKit
     - FontBlaster
     - JSQWebViewController
     - MenuItemKit
@@ -39,13 +40,9 @@ SPEC REPOS:
     - SSZipArchive
     - ZFDragableModalTransition
 
-EXTERNAL SOURCES:
-  FolioReaderKit:
-    :path: "../"
-
 SPEC CHECKSUMS:
   AEXML: 5ebafc1b75e0bcf0f1b09b8ca8fed2d5a199479b
-  FolioReaderKit: 47af4947287e66a902d5d8af9577e10b8ad230f4
+  FolioReaderKit: 162ea6b40cdb26d54730b01bce4a7bb81d4ac961
   FontBlaster: 84229df8e3a7a6dacb190565bc543747a0c323f9
   JSQWebViewController: 51041569b75d19dbb6b7fe0b7ae053c32409a9be
   MenuItemKit: d9b539b28fdbbd7980d6f3668b9cd6daefeabd9b
@@ -56,6 +53,6 @@ SPEC CHECKSUMS:
   SSZipArchive: 14401ade5f8e82aba1ff03e9f88e9de60937ae60
   ZFDragableModalTransition: 0d294eaaba6edfcb9839595de765f9ca06a4b524
 
-PODFILE CHECKSUM: d5e64429a71bc13b6eceb790b04656d8082e4d66
+PODFILE CHECKSUM: 5309d4824d4eaedd7959691aae7f1d1fea6b95fa
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.3
